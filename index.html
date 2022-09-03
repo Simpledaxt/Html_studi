@@ -23,9 +23,9 @@
     <title>Моя тестовая страница</title>
   </head>
   <body>
-    <link rel="stylesheet" href="my-css-file.css">
+    <link rel="stylesheet" href="my-css-file.css"> <!--<p>Добавление CSS в html документ</p> -->
 
-    <h1>Начало работы с html</h1>
+    <h1 id="заголовок_1">Начало работы с html</h1>
     <ul>
       <li><h2>&lt;h2&gt; эллемент</h2>
       <li><h3>&lt;h3&gt; эллемент</h3>
@@ -39,8 +39,8 @@
     </ul>
     <ul>
     <p>Проверка вставки картинки &lt;img src=""&gt;: ниже</p>
-    <a href="https://www.mozilla.org/ru/"></a><img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" 
-    alt="логотип mozilla со ссылкой на их домашнюю страницу"><!-- <p>ссылка на картинку должна располагаться в интернете или же
+    <a href="https://www.mozilla.org/ru/"><img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" 
+      alt="логотип mozilla со ссылкой на их домашнюю страницу"></a> <!-- <p>ссылка на картинку должна располагаться в интернете или же
       можно спользовать полное название картинки что находится в папке с проектом так же в картинку добавленна ссылка на домашнюю страницу браузера</p> -->
     </ul>
     <p>Cсылки-мнемоники — специальные коды, которые отображают спецсимволы, 
@@ -58,6 +58,11 @@
       <li>так же можно вложить 1 список в другой просто поместив &lt;ol> в &lt;ul> или же наоборот</li>
       </ol>
     </ul>
-    <script src="my-js-file.js"></script>
+    <p><a href="Enother_file/index2.html">Переход к доп странице</a></p> <!-- <p>ссылка на другие страницы/p> -->
+    <h2><a href="#заголовок_1">переход к заголовку</a></h2><!-- <p>Переход на нужную строчку или нужный текст в данном или другом документе</p> -->
+    <script src="my-js-file.js"></script><!-- <p>Добавление Java Skript в html документ</p> -->
+    <p><a href="mailto:vladknelmi@gmail.com">Отправить письмо для vladknelmi@gmail.com</a></p> <!-- <p>используется для отправления сообщений (на адреса почт) 
+      без адреса почты поле получателя останется пустым</p> -->
+    <p><a href="mailto:vladknelmi@gmgail.com&amp;subject=Тема%20емейла&amp;body=Тело%20емейла"></a></p><!-- <p>отправка сообщения с предопределённым набором текста</p> -->
   </body>
 </html>
