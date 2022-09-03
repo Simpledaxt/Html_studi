@@ -5,7 +5,7 @@ html {
   }
   
   ul {
-    background: red;
+    background: rgb(255, 255, 255);
     padding: 10px;
     border: 1px solid black;
   }
